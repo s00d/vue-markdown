@@ -1,5 +1,5 @@
 {
-  "name": "vue-markdown",
+  "name": "@adapttive/vue-markdown",
   "version": "2.2.4",
   "description": "A Powerful and Highspeed Markdown Parser for Vue",
   "main": "dist/vue-markdown.common.js",
@@ -16,19 +16,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miaolz123/vue-markdown.git"
+    "url": "git+https://github.com/adapttive/vue-markdown.git"
   },
   "keywords": [
     "vue",
     "markdown",
     "vue-markdown"
   ],
-  "author": "miaolz123",
+  "author": "milindsingh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/miaolz123/vue-markdown/issues"
+    "url": "https://github.com/adapttive/vue-markdown/issues"
   },
-  "homepage": "https://github.com/miaolz123/vue-markdown#readme",
+  "homepage": "https://github.com/adapttive/vue-markdown#readme",
   "devDependencies": {
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
