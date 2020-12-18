@@ -275,6 +275,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    updatePrism: {
 	      type: Boolean,
 	      default: true
+	    },
+	    inline: {
+	      type: Boolean,
+	      default: false
 	    }
 	  },
 
@@ -343,8 +347,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	      });
 	    }
 
-	    var outHtml = this.show ? this.md.render(this.prerender(this.sourceData)) : '';
-	    outHtml = this.postrender(outHtml);
+	    var outHtml = void 0;
+	    if (this.show) {
+	      outHtml = this.prerender(this.sourceData);
+	      if (this.inline) {
+	        outHtml = this.md.renderInline(outHtml);
+	      } else {
+	        outHtml = this.md.render(outHtml);
+	      }
+	      outHtml = this.postrender(outHtml);
+	    } else {
+	      outHtml = '';
+	    }
 
 	    this.$emit('rendered', outHtml);
 
