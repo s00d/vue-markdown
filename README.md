@@ -181,10 +181,5 @@ TIP: The default slot only renders **once** at the beginning, and it will overwr
 # License
 
 Copyright (c) 2016
-<<<<<<< HEAD
  - [miaolz123](https://github.com/miaolz123) by [MIT](https://opensource.org/licenses/MIT)
  - [milindsingh](https://github.com/milindsingh) by [MIT](https://opensource.org/licenses/MIT)
-=======
-[miaolz123](https://github.com/miaolz123) by [MIT](https://opensource.org/licenses/MIT)
-[milindsingh](https://github.com/milindsingh) by [MIT](https://opensource.org/licenses/MIT)
->>>>>>> 068da8e... readme updated
