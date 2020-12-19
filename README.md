@@ -1,8 +1,8 @@
 # vue-markdown
 
-[![npm](https://img.shields.io/npm/v/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
-[![npm](https://img.shields.io/npm/l/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
-[![npm](https://img.shields.io/npm/dt/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
+[![npm](https://img.shields.io/npm/v/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
+[![npm](https://img.shields.io/npm/l/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
+[![npm](https://img.shields.io/npm/dt/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
 
 > If you want vue-markdown for `vue1.X.X`, please checkout [vue-markdown1.X.X](https://github.com/miaolz123/vue-markdown/tree/v1).
 
@@ -179,4 +179,6 @@ TIP: The default slot only renders **once** at the beginning, and it will overwr
 
 # License
 
-Copyright (c) 2016 [miaolz123](https://github.com/miaolz123) by [MIT](https://opensource.org/licenses/MIT)
+Copyright (c) 2016
+ - [miaolz123](https://github.com/miaolz123) by [MIT](https://opensource.org/licenses/MIT)
+ - [milindsingh](https://github.com/milindsingh) by [MIT](https://opensource.org/licenses/MIT)

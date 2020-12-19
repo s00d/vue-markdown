@@ -1,6 +1,6 @@
 import VueMarkdownComponent from './VueMarkdown'
 
-export function install(Vue, options) {
+export function install (Vue, options) {
   const _options = Object.assign({
     tag: 'vue-markdown'
   }, options)
