@@ -33,5 +33,9 @@ node_modules
 .node_repl_history
 package-lock.json
 
+<<<<<<< HEAD
 # Ignore IDE files
+=======
+# removing idea
+>>>>>>> 068da8e... readme updated
 .idea

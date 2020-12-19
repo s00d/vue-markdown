@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/l/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
 [![npm](https://img.shields.io/npm/dt/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
 
-> If you want vue-markdown for `vue1.X.X`, please checkout [vue-markdown1.X.X](https://github.com/miaolz123/vue-markdown/tree/v1).
+> If you want vue-markdown for `vue1.X.X`, please checkout [vue-markdown1.X.X](https://github.com/adapttive/vue-markdown/tree/v1).
 
 A Powerful and Highspeed Markdown Parser for Vue.
 
@@ -33,11 +33,11 @@ Supported Markdown Syntax:
 
 # Example
 
-[simple](https://github.com/miaolz123/vue-markdown/blob/master/example/simple)
+[simple](https://github.com/adapttive/vue-markdown/blob/master/example/simple)
 
-[webpack-simple](https://github.com/miaolz123/vue-markdown/blob/master/example/webpack-simple)
+[webpack-simple](https://github.com/adapttive/vue-markdown/blob/master/example/webpack-simple)
 
-[Live Demo](https://miaolz123.github.io/vue-markdown/)
+[Live Demo](https://adapttive.github.io/vue-markdown/)
 
 # Installation
 
@@ -176,9 +176,15 @@ TIP: The default slot only renders **once** at the beginning, and it will overwr
 - [LeFnord](https://github.com/lefnord)
 - [FlorianWendelborn](https://github.com/FlorianWendelborn)
 - [NoahCardoza](https://github.com/NoahCardoza)
+- [milindsingh](https://github.com/milindsingh)
 
 # License
 
 Copyright (c) 2016
+<<<<<<< HEAD
  - [miaolz123](https://github.com/miaolz123) by [MIT](https://opensource.org/licenses/MIT)
  - [milindsingh](https://github.com/milindsingh) by [MIT](https://opensource.org/licenses/MIT)
+=======
+[miaolz123](https://github.com/miaolz123) by [MIT](https://opensource.org/licenses/MIT)
+[milindsingh](https://github.com/milindsingh) by [MIT](https://opensource.org/licenses/MIT)
+>>>>>>> 068da8e... readme updated
