@@ -1,6 +1,6 @@
 {
   "name": "@adapttive/vue-markdown",
-  "version": "2.3.0",
+  "version": "3.0.0-beta.0",
   "description": "A Powerful and Highspeed Markdown Parser for Vue",
   "main": "dist/vue-markdown.common.js",
   "types": "index.d.ts",
