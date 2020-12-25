@@ -1,8 +1,10 @@
 # vue-markdown
 
-[![npm](https://img.shields.io/npm/v/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
-[![npm](https://img.shields.io/npm/l/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
-[![npm](https://img.shields.io/npm/dt/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
+[![npm](https://img.shields.io/npm/v/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown@adapttive/)
+[![npm](https://img.shields.io/npm/l/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown@adapttive/)
+[![npm](https://img.shields.io/david/adapttive/vue-markdown)](https://www.npmjs.com/package/@adapttive/vue-markdown)
+[![npm](https://img.shields.io/bundlephobia/min/@adapttive/vue-markdown)](https://www.npmjs.com/package/@adapttive/vue-markdown)
+[![npm](https://img.shields.io/npm/dt/@adapttive/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/@adapttive/vue-markdown)
 
 > If you want vue-markdown for `vue1.X.X`, please checkout [vue-markdown1.X.X](https://github.com/adapttive/vue-markdown/tree/v1).
 
