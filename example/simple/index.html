@@ -3,11 +3,11 @@
 
 <head>
   <title>simple</title>
-  <script src="https://unpkg.com/vue@2.1.8/dist/vue.min.js"></script>
+  <script src="https://unpkg.com/vue@2.6.0/dist/vue.min.js"></script>
   <script src="../../dist/vue-markdown.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/katex@0.6.0/dist/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/components/prism-yaml.min.js" integrity="sha512-j9sRnEoasdNn9OSwsCxjrQi1H55NqBFDJ+oe7me3sIfvDLeTyzvnZXf0eJqL5CvX6rswU2Sld9PnTVQ0Xy2CFQ==" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -61,7 +61,7 @@ function $initHighlight(block, cls) {
 - [ ] Neptune
 - [ ] Comet Haley
     </vue-markdown>
-
+    <vue-markdown external-preview='true' update-prism='true'>@[external:code:github](https://github.com/milindsingh/magento2-grumphp/blob/2d9be8cf5c9da07256af5194370e9a9326e30881/module/grumphp.yml#L1-L134)</vue-markdown>
   </div>
   <script>
     Vue.use(VueMarkdown);

@@ -1,8 +1,10 @@
 /*!
  * /**
- *  * vue-markdown v2.3.0
+ *  * vue-markdown v3.0.0-alpha.8
  *  * https://github.com/adapttive/vue-markdown
  *  * MIT License
  *  * /
  *
  */
+
+/*! For license information please see index.js.LICENSE.txt */

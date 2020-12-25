@@ -24,6 +24,8 @@ export default interface VueMarkdown extends Vue {
   tocAnchorClass: string
   tocAnchorLinkSymbol: string
   tocAnchorLinkSpace: boolean
+  externalPreview: boolean
+  updatePrism: boolean
   tocAnchorLinkClass: string
   anchorAttributes: object
   prerender: Function

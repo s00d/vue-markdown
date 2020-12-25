@@ -10,6 +10,7 @@ import mark from 'markdown-it-mark'
 import toc from 'markdown-it-toc-and-anchor'
 import katex from 'markdown-it-katex'
 import tasklists from 'markdown-it-task-lists'
+import externalPreview from 'markdown-it-external-preview'
 
 export default {
   md: new markdownIt(),
@@ -135,7 +136,11 @@ export default {
     },
     updatePrism: {
       type: Boolean,
-      default: true
+      default: false
+    },
+    externalPreview: {
+      type: Boolean,
+      default: false
     },
     inline: {
       type: Boolean,
@@ -160,6 +165,10 @@ export default {
       .use(mark)
       .use(katex, { throwOnError: false, errorColor: ' #cc0000' })
       .use(tasklists, { enabled: this.taskLists })
+
+    if (this.externalPreview) {
+      this.md.use(externalPreview)
+    }
 
     if (this.emoji) {
       this.md.use(emoji)

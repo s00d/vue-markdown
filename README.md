@@ -62,19 +62,32 @@ Supported Markdown Syntax:
 ### NPM
 
 ```shell
-$ npm install --save vue-markdown
+$ npm install --save @adapttive/vue-markdown
 ```
 
 ### Yarn
 
 ```shell
-$ yarn add vue-markdown --save
+$ yarn add @adapttive/vue-markdown --save
+```
+
+### Migrating from vue-markdown 2.3
+
+- You just need to replace the dependencies in `package.json`:
+
+```
+{
+  "dependencies": {
+-  "vue-markdown": "^2.2.4
++  "vue-markdown": "npm:@adapttive/vue-markdown@^X.X.X"
+  }
+}
 ```
 
 ## CommonJS
 
 ```js
-var VueMarkdown = require('vue-markdown');
+var VueMarkdown = require('@adapttive/vue-markdown');
 
 new Vue({
   components: {
@@ -88,7 +101,7 @@ new Vue({
 After installing via Yarn or NPM, use the following snippet in the script portion of the Vue component which you wish to render the Markdown.
 
 ```js
-import VueMarkdown from 'vue-markdown'
+import VueMarkdown from '@adapttive/vue-markdown'
 
 new Vue({
   components: {
@@ -181,5 +194,6 @@ TIP: The default slot only renders **once** at the beginning, and it will overwr
 # License
 
 Copyright (c) 2016
+
  - [miaolz123](https://github.com/miaolz123) by [MIT](https://opensource.org/licenses/MIT)
  - [milindsingh](https://github.com/milindsingh) by [MIT](https://opensource.org/licenses/MIT)
