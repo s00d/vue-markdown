@@ -2,6 +2,7 @@ import Vue from 'vue'
 
 export default interface VueMarkdown extends Vue {
   watches: Array<string>
+  plugins: Array<any>
   source: string
   show: boolean
   highlight: boolean

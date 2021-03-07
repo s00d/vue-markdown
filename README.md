@@ -25,9 +25,9 @@ Supported Markdown Syntax:
 * [x] subscript
 * [x] footnote
 * [x] insert
-* [x] *katex
 * [x] emoji
 * [x] mark
+* [x] *katex
 
 `*SyntaxHighlighter` work with [Prism](https://prismjs.com) recommend
 
@@ -171,6 +171,52 @@ TIP: The default slot only renders **once** at the beginning, and it will overwr
 2. Select all the options that apply for your project
 3. At the bottom of the page download both the JS and CSS
 4. Include them in your `index.html` **MAKE SURE to include Prism before your** `app.js`
+
+
+# Plugins
+
+```html
+ <template>
+   <div>
+     <vue3-markdown-it :source='source' :plugins='plugins' />
+   </div>
+ </template>
+
+ <script>
+ import katex from 'markdown-it-katex';
+ import tasklists from 'markdown-it-task-lists';
+ import externalPreview from 'markdown-it-external-preview';
+ import VueMarkdown from 'vue-markdown';
+
+ export default {
+   components: {
+     VueMarkdown
+   },
+   data() {
+     return {
+       plugins: [
+         {
+           plugin: katex,
+           options: { throwOnError: false, errorColor: ' #cc0000' }
+         },
+         {
+           plugin: tasklists,
+           options: { enabled: this.taskLists }
+         },
+         {
+           plugin: externalPreview
+         }
+       ]
+     }
+   }
+ }
+ </script>
+```
+
+- Make sure you add dependencies for plugins:
+    - `"highlight.js": "^10.4.0"`
+    - `"markdown-it-external-preview": "^1.0.4"`
+    - `"markdown-it-katex": "npm:@iktakahiro/markdown-it-katex@^4.0.1"`
 
 # Thanks
 

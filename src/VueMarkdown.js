@@ -8,9 +8,6 @@ import abbreviation from 'markdown-it-abbr'
 import insert from 'markdown-it-ins'
 import mark from 'markdown-it-mark'
 import toc from 'markdown-it-toc-and-anchor'
-import katex from 'markdown-it-katex'
-import tasklists from 'markdown-it-task-lists'
-import externalPreview from 'markdown-it-external-preview'
 
 export default {
   md: new markdownIt(),
@@ -138,14 +135,14 @@ export default {
       type: Boolean,
       default: false
     },
-    externalPreview: {
-      type: Boolean,
-      default: false
-    },
     inline: {
       type: Boolean,
       default: false
-    }
+    },
+    plugins: {
+      type: Array,
+      default: () => []
+    },
   },
 
   computed: {
@@ -162,13 +159,11 @@ export default {
       .use(deflist)
       .use(abbreviation)
       .use(insert)
-      .use(mark)
-      .use(katex, { throwOnError: false, errorColor: ' #cc0000' })
-      .use(tasklists, { enabled: this.taskLists })
+      .use(mark);
 
-    if (this.externalPreview) {
-      this.md.use(externalPreview)
-    }
+    this.plugins.forEach(({ plugin, options = {} }) => {
+      this.md.use(plugin, options);
+    });
 
     if (this.emoji) {
       this.md.use(emoji)
