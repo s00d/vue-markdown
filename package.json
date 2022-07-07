@@ -7,7 +7,8 @@
   "files": [
     "dist/vue-markdown.js",
     "dist/vue-markdown.common.js",
-    "src"
+    "src",
+    "index.d.ts"
   ],
   "scripts": {
     "start": "webpack --config webpack.config.js",
